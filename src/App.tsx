@@ -6,7 +6,7 @@ export const App = () => {
   return (
     <div className="App">
       <div className="card">
-        <h1>Kyle T. Bennett</h1>
+        <h1>Kyle Bennett</h1>
         <SiteLinks />
       </div>
     </div>
