@@ -7,32 +7,32 @@ interface IStack {
 
 const data: Array<IStack> = [
   {
-    title: "A Small Business on Wordpress",
-    slices: ["LAMP", "Digital Ocean"],
-  },
-  {
     title: "EntryPoint (This Site)",
     slices: [
-      "HTML/CSS/React/Typescript",
-      "Codesandbox.io",
-      "Netlify",
-      "(Soon to include Vercel)",
+      "HTML/CSS/React/Typescript inside Codesandbox.io",
+      "Netlify (Until 2023)",
+      "Vercel + Github Actions (2023+)",
     ],
   },
   {
-    title: "FSPortfolio",
-    slices: [
-      "NodeTS/Express",
-      "HTML/CSS/React/Typescript",
-      "LetsEncrypt",
-      "PM2",
-      "AWS EC2 Instance (linux)",
-    ],
+    title: "A Small Business on Wordpress",
+    slices: ["WordPress", "Digital Ocean"],
   },
-  {
-    title: "HomeServer/Intranet",
-    slices: ["Python Scripts", "Grafana", "Nginx", "RapsberryPI"],
-  },
+  // {
+  //   title: "Other Assorted Works...",
+  //   slices: [
+  //     "A variety of HTML/CSS/React/Typescript developed inside VSCode",
+  //     "served from NodeTS/Express",
+  //     "with connections to MongoAtlas",
+  //     "running on an AWS EC2 Instance (linux)",
+  //     "maintaining TLS Security with LetsEncrypt",
+  //     "and node process management with PM2",
+  //   ],
+  // },
+  // {
+  //   title: "HomeServer/Intranet",
+  //   slices: ["Python Scripts", "Grafana", "Nginx", "RapsberryPI"],
+  // },
 ];
 
 const Stack = ({ title, slices }: IStack) => {

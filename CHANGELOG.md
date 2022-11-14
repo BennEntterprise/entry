@@ -7,15 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Work on Highlighting my tech stack experience
+    - A name for each unique stack. 
+    - A rough manifest for each stack (ProductName/Logo)
 
 ### Added 
 
-- Added Dutch translation
 
 ### Fixed
 
+- Added a changelog, attempting to align on symantic versioning.
 
-## [Codesandbox]
+## [v1.0.0]() Codesandbox to Netlify
 
 ### Added 
 
