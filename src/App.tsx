@@ -1,6 +1,7 @@
 import "./styles.css";
 import { SiteLinks } from "./components/SiteLinks";
 import { LetterHead } from "./components/LetterHead";
+import { TechStacks } from "./components/TechStacks";
 
 // USING ICONS FROM A CDN
 export const App = () => {
@@ -10,6 +11,7 @@ export const App = () => {
         <LetterHead />
         <SiteLinks />
       </div>
+      <TechStacks />
     </div>
   );
 };

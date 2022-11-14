@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 .App {
@@ -26,6 +27,7 @@
   background: #f1e3e3;
   border-radius: 10%;
   transition: 1s;
+  margin: 10%;
 }
 
 .card:hover {
@@ -52,4 +54,31 @@ h1 {
   bottom: 0.5rem;
   right: 0.5rem;
   font-size: 0.5rem;
+}
+
+.stacks {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stack {
+  /* border: 2px dotted white; */
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  flex-grow: 1;
+}
+
+.stack li {
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
 }
