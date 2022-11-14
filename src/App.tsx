@@ -11,7 +11,17 @@ export const App = () => {
         <LetterHead />
         <SiteLinks />
       </div>
+      {/* <Monitoring /> */}
       <TechStacks />
+      {/* <Logging /> */}
     </div>
   );
+};
+
+const Monitoring = () => {
+  return <h3>Monitoring</h3>;
+};
+
+const Logging = () => {
+  return <h3>Logging</h3>;
 };
