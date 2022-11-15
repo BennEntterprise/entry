@@ -4,6 +4,7 @@
 }
 
 .App {
+  position: relative;
   width: 100%;
   font-family: sans-serif;
   text-align: center;
@@ -51,9 +52,14 @@ h1 {
 }
 #footer-right {
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0;
   right: 0.5rem;
+  padding: 0.25rem;
+  border: 50%;
   font-size: 0.5rem;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
 }
 
 .stacks {

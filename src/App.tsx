@@ -2,6 +2,7 @@ import "./styles.css";
 import { SiteLinks } from "./components/SiteLinks";
 import { LetterHead } from "./components/LetterHead";
 import { TechStacks } from "./components/TechStacks";
+import { StickyFooter } from "./components/StickyFooter";
 
 // USING ICONS FROM A CDN
 export const App = () => {
@@ -14,6 +15,7 @@ export const App = () => {
       {/* <Monitoring /> */}
       <TechStacks />
       {/* <Logging /> */}
+      <StickyFooter />
     </div>
   );
 };
