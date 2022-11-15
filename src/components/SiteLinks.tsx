@@ -1,4 +1,5 @@
 import React from "react";
+import LinkedInLogo from "../images/LinkedInLogo.png";
 
 export const SiteLinks = () => {
   return (
@@ -12,7 +13,7 @@ export const SiteLinks = () => {
           alt="linkedin"
           height="32"
           width="32"
-          src="http://etseq.law.harvard.edu/wp-content/uploads/2013/08/Screen-Shot-2013-08-11-at-6.39.25-PM.png"
+          src="/images/LinkedInLogo.png"
         />
       </a>
       <a href="https://codepen.io/coderkyle" target="_blank" rel="noreferrer">
@@ -20,7 +21,7 @@ export const SiteLinks = () => {
           alt="codepen"
           height="32"
           width="32"
-          src="https://clipground.com/images/codepen-logo-8.png"
+          src="images/codepen-logo.png"
         />
       </a>
       <a
@@ -28,24 +29,14 @@ export const SiteLinks = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img
-          alt="github"
-          height="32"
-          width="32"
-          src="https://toppng.com/uploads/thumbnail/github-mark-logo-vector-11573976116oq3oau9n10.png"
-        />
+        <img alt="github" height="32" width="32" src="images/github.png" />
       </a>
       <a
         href="https://www.twitch.tv/physicsphreak"
         target="_blank"
         rel="noreferrer"
       >
-        <img
-          alt="twitch"
-          height="32"
-          width="32"
-          src="https://i.pinimg.com/originals/c9/75/fe/c975fe8c491ce28c6081246c44a61e74.png"
-        />
+        <img alt="twitch" height="32" width="32" src="images/twitch.png" />
       </a>
     </div>
   );
