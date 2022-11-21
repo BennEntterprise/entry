@@ -27,7 +27,7 @@ const Stack = ({ title, slices }: IStack) => {
       <h4 className="stack-title">{title}</h4>
       <ul className="stack-list">
         {slices.map((s) => (
-          <li key="s">{s}</li>
+          <li key={s}>{s}</li>
         ))}
       </ul>
     </div>
