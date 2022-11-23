@@ -12,7 +12,7 @@ export const App = () => {
         <LetterHead />
         <SiteLinks />
       </div>
-      <Stacks />
+     {/* <Stacks />*/}
       <StickyFooter />
     </div>
   );
