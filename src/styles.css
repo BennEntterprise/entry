@@ -64,6 +64,7 @@ h1 {
 }
 
 .stack-title {
+  text-decoration: underline;
 }
 
 .stack-list {
@@ -73,6 +74,10 @@ h1 {
 .stack-list li {
   list-style-type: none;
   text-align: center;
+}
+
+.word-cloud--container li {
+  list-style-type: none;
 }
 
 #footer-right {
