@@ -9,13 +9,12 @@ import { WordCloud } from "./components/WordCloud";
 export const App = () => {
   return (
     <div className="App">
-      <WordCloud />
-      {/*  <div className="card">
+      <div className="card">
         <LetterHead />
         <SiteLinks />
       </div>
-      */}
-      {/* <Stacks />*/}
+       <Stacks />
+       <WordCloud />
       <StickyFooter />
     </div>
   );

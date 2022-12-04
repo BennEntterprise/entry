@@ -7,7 +7,7 @@ interface IStack {
 
 const data: IStack[] = [
   {
-    title: "KyleBennett.io (this site!)",
+    title: "Simple React Brochure Site",
     slices: [
       "HTML/CSS/Typescript React",
       "Codesandbox and VSCode",
