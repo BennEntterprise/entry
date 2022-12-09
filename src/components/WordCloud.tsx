@@ -17,11 +17,14 @@ export const WordCloud = () => {
         <li>
           <a href="#">MycroftAI (Mark II)</a>
         </li>
-         <li>
+        <li>
           <a href="#">Conventional Commits</a>
         </li>
         <li>
           <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>
+        </li>
+        <li>
+          <a href="https://nginx.org/en/">Nginx</a>
         </li>
       </ul>
     </div>
