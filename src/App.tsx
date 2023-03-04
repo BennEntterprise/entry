@@ -20,7 +20,7 @@ export const App = () => {
       {/* <Stacks />*/}
       {/* <OpenSourceHacking /> */}
       {/* <Stacks /> */}
-      <WordCloud />
+      {/* <WordCloud /> */}
 
       <StickyFooter />
     </div>
