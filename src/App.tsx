@@ -7,7 +7,6 @@ import { Stacks } from './components/Stacks';
 import { OpenSourceHacking } from './components/OpenSourceHacking';
 import { WordCloud } from './components/WordCloud';
 
-
 // USING ICONS FROM A CDN
 export const App = () => {
   return (
@@ -16,9 +15,9 @@ export const App = () => {
         <LetterHead />
         <SiteLinks />
       </div>
-      <Stacks />
-      <OpenSourceHacking />
-      <WordCloud />
+      {/* <Stacks /> */}
+      {/* <OpenSourceHacking /> */}
+      {/* <WordCloud /> */}
       <StickyFooter />
     </div>
   );
