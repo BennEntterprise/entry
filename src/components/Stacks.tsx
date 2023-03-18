@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface IStack {
   title: string;
@@ -7,17 +7,17 @@ interface IStack {
 
 const data: IStack[] = [
   {
-    title: "KyleBennett.io (this site!)",
+    title: 'KyleBennett.io (this site!)',
     slices: [
-      "HTML/CSS/Typescript React",
-      "Codesandbox and VSCode",
-      "Vercel",
-      "Snyk",
+      'HTML/CSS/Typescript React',
+      'Codesandbox and VSCode',
+      'Vercel',
+      'Snyk',
     ],
   },
   {
-    title: "SMB WordPress",
-    slices: ["WordPress", "Digital Ocean", "WordFence"],
+    title: 'SMB WordPress',
+    slices: ['WordPress', 'Digital Ocean', 'WordFence'],
   },
 ];
 
