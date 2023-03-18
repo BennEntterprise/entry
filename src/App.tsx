@@ -15,10 +15,10 @@ export const App = () => {
         <LetterHead />
         <SiteLinks />
       </div>
-      <Stacks />
-      {/* <OpenSourceHacking />
-      <WordCloud />
-      <StickyFooter /> */}
+      {/* <Stacks /> */}
+      {/* <OpenSourceHacking /> */}
+      {/* <WordCloud /> */}
+      <StickyFooter />
     </div>
   );
 };
