@@ -1,9 +1,16 @@
 // A React component that displays a list of domain names that I own.
-import React from 'react';
+
+import React from 'react'
+import { IDomain } from '../App';
 
 interface IMyProperties {
-  domainNames: Array<string>;
+    domainNames: Array<IDomain>;
 }
+
+const excludedFromPresentation = [
+    'wussickcontracting.com',
+    'kylebennett.design',
+]
 
 export const MyProperties = (props: IMyProperties) => {
   return (
@@ -16,9 +23,18 @@ export const MyProperties = (props: IMyProperties) => {
         not squatting. No link = no public work (yet)
       </p>
       <ul>
-        {props.domainNames.map((dn) => (
-          <li>{dn}</li>
-        ))}
+            {props.domainNames
+          .filter((d) => {
+            if (excludedFromPresentation.includes(d.name)) {
+              return false;
+            }
+            return d;
+          })
+          .map((d) => (
+            <li>
+              <a href={d.url}>{d.name}</a>
+            </li>
+          ))}
       </ul>
     </div>
   );
