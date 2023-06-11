@@ -28,7 +28,7 @@ export const MyProperties = (props: IMyProperties) => {
                 return false;
             }
             return d;
-        
+          }).map((d) => <li><a href={d.url}>{d.name}</a></li>)}
       </ul>
     </div>
   );
