@@ -23,12 +23,18 @@ export const MyProperties = (props: IMyProperties) => {
         not squatting. No link = no public work (yet)
       </p>
       <ul>
-        {props.domainNames.filter((d => {
+            {props.domainNames
+          .filter((d) => {
             if (excludedFromPresentation.includes(d.name)) {
-                return false;
+              return false;
             }
             return d;
-          }).map((d) => <li><a href={d.url}>{d.name}</a></li>)}
+          })
+          .map((d) => (
+            <li>
+              <a href={d.url}>{d.name}</a>
+            </li>
+          ))}
       </ul>
     </div>
   );
