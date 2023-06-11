@@ -64,10 +64,6 @@ const domains: Array<IDomain> = [
   },
 ];
 
-// Form the domains into a list of objects that has 
-// a name, a url and a description 
-
-
 export const App = () => {
   return (
     <div className="App">
