@@ -6,9 +6,9 @@ import { StickyFooter } from './components/StickyFooter';
 import { Stacks } from './components/Stacks';
 import { OpenSourceHacking } from './components/OpenSourceHacking';
 import { WordCloud } from './components/WordCloud';
-import  { MyProperties } from './components/MyProperties'
+import { MyProperties } from './components/MyProperties';
 
-export type IDomain = {name: string, url: string, description: string}
+export type IDomain = { name: string; url: string; description: string };
 
 export const App = () => {
   return (
