@@ -13,7 +13,8 @@ if (process.env.REACT_APP_PUBLIC_POSTHOG_KEY) {
     console.log("Posthog Key is Set");
 } else {
     console.log("Posthog Key is Not Set");
-    process.exit(1);
+    // Close the react app
+    process.env.REACT_APP_PUBLIC_POSTHOG_KEY='unset'
 }
 
 posthog.init(
