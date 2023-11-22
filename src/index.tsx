@@ -7,20 +7,26 @@ import { App } from "./App";
 
 import { PostHogProvider } from "posthog-js/react";
 
+const posthogKeys = {
+    REACT_APP_PUBLIC_POSTHOG_HOST:"https://app.posthog.com",
+    REACT_APP_PUBLIC_POSTHOG_KEY:"phc_pyjf9J0Nv952OmlftyI1cHwQTYRfZuDg4mi6P5My5kS",
+    POSTHOT_PROJECT_ID:"43028"
+}
+
 // Verify the posthog key is set, (not undefined)
 // if it is undefined, then we kill the process
-if (process.env.REACT_APP_PUBLIC_POSTHOG_KEY) {
+if (posthogKeys.REACT_APP_PUBLIC_POSTHOG_KEY) {
     console.log("Posthog Key is Set");
 } else {
     console.log("Posthog Key is Not Set");
     // Close the react app
-    process.env.REACT_APP_PUBLIC_POSTHOG_KEY='unset'
+    posthogKeys.REACT_APP_PUBLIC_POSTHOG_KEY='unset'
 }
 
 posthog.init(
-    process.env.REACT_APP_PUBLIC_POSTHOG_KEY,
+    posthogKeys.REACT_APP_PUBLIC_POSTHOG_KEY,
     {
-        api_host: process.env.REACT_APP_PUBLIC_POSTHOG_HOST,
+        api_host: posthogKeys.REACT_APP_PUBLIC_POSTHOG_HOST,
     }
 );
 
