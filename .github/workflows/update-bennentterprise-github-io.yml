@@ -1,5 +1,6 @@
 name: Trigger Update Index
 
+
 on:
   push:
     branches:
